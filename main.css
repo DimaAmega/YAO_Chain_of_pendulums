@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+/* #canvas{
+    width: 99vw;
+    height: 100vh;
+} */
+
+#state {
+  margin-top: 10px;
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  top: 0;
+}
+
+
+input,
+button {
+  background: transparent;
+  border: none;
+  width: 100%;
+  color: black;
+  font-size: 30px;
+  outline: none;
+  border-bottom: solid black;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.container {
+  padding: 10px;
+  /* position: absolute; */
+  bottom: 20px;
+  font-size: 30px;
+  color: black;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.item_container {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: auto;
+  flex: 1 1 auto;
+}
+#k_input,
+#xspeed_input,
+#lambda_input,
+#gamma_input,
+#addItems_input,
+#removeItems_input,
+#impulse_input {
+  width: 24px;
+  float: letf;
+  margin-left: 10px;
+}
+#lambda_input,
+#gamma_input {
+  width: 60px;
+}
+
+#addElemButton,
+#removeElemButton,
+#impulseElemButton {
+  width: 170px;
+}
+#addElemButton:hover,
+#removeElemButton:hover,
+#impulseElemButton:hover {
+  cursor: pointer;
+  border-bottom: solid white;
+}
+#equations {
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  /* position: absolute; */
+  bottom: 120px;
+}
+#equations p {
+  text-align: center;
+}
+mjx-container[jax="CHTML"][display="true"] {
+  display: inline;
+  text-align: center;
+  margin: 2em 0;
+  color: black;
+}
+.chart_container {
+  width: 90vw;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  background: transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-button {
+  background-image: url("");
+  background-repeat: no-repeat;
+  width: 6px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px rgb(255, 255, 255) inset;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: rgba(126, 126, 126, 0.466);
+  box-shadow: 0px 1px 1px rgb(175, 139, 139) inset;
+  background-image: url("https://yraaa.ru/_pu/24/59610063.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+::-webkit-resizer {
+  background-image: url("");
+  background-repeat: no-repeat;
+  width: 3px;
+  height: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
