@@ -15,8 +15,8 @@ Canvas.setAttribute('height', 400);
 //    GLOBAL letIABLES
 ///////////////////////////
 let state_div = document.getElementById("state");
-let M = 0.9;
-let A = 0.3; 
+let M = 10;
+let A = 2; 
 let W = 2;
 let N = 6;
 let iterations = 1;
